@@ -1,0 +1,48 @@
+ul {
+    list-style: none;
+    display: flex;
+    display: flex;
+    gap: 40px;
+ 
+}
+ 
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+ }
+  li a {
+    margin: 30px;
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 15px
+}
+li{
+    position: relative;
+}
+span{
+    padding: 0.15rem;
+    color: blue;
+    display: none;
+    position: absolute;
+    bottom: 200%;
+    left: 5px;
+    height: 30px;
+    
+
+}
+
+
+.tooltip {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 27px;
+    cursor: grab;
+    
+}  
+
+
+
